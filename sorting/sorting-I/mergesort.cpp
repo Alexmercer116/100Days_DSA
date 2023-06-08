@@ -39,6 +39,7 @@ void merge(vector<int> &v,int low,int mid,int high){
 
 void mergesort(vector<int> &v,int low,int high){
    if(low>=high) return;
+   // Divide the array
    int mid=low+(high-low)/2;
 
    mergesort(v,low,mid);
