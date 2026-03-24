@@ -15,7 +15,6 @@ void display(vector<int> v)
 void moveZeroes(vector<int> &v)
 {
    int n = v.size();
-   // parsing the elements from the first occurence of zero
    int i = 0, j = 0;
    while (j < n)
    {
